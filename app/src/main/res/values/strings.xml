@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Knec Past Papers</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="skip">skip</string>
+    <string name="board_title">WELCOME TO KNEC PAST PAPERS</string>
+    <string name="desc_2">We have put together a wide range of units in all courses so you can find and enjoy your favourite units</string>
+    <string name="board_title_2">READ YOUR FAVOURITE BOOKS ON THE GO</string>
+    <string name="board_title_3">KEEP READING YOU WILL FALL IN LOVE</string>
+    <string name="disc_3">Our user friendly UI makes you to want to keep reading and searching for more knowledge</string>
+    <string name="board_body">We make your school life much easier</string>
+    <string name="login">LogIn</string>
+    <string name="get_started">Get Started</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="welcome">WELCOME</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_to_your_account">LogIn to your account</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="register">Register</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="name">name</string>
+    <string name="username">username</string>
+    <string name="sign_up2">Sign Up</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello">Hello!</string>
+    <string name="trending_courses">Category</string>
+    <string name="popular_now">Popular Now</string>
+    <string name="view_all">View all</string>
+    <string name="courses">Courses</string>
+    <string name="all_courses">All Courses</string>
+    <string name="automotive">Automotive</string>
+    <string name="agriculture">Agriculture</string>
+    <string name="building_tech">Building Tech</string>
+    <string name="electrical">Electrical</string>
+    <string name="fashion_design">Fashion Design</string>
+    <string name="human_resource">Human Resource</string>
+    <string name="ict">ICT</string>
+    <string name="mechanical">Mechanical</string>
+    <string name="catering">Catering</string>
+</resources>

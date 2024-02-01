@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:flow_horizontalAlign="center">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="70dp"
+        android:scaleType="centerCrop"
+        android:id="@+id/img"
+        android:src="@drawable/start"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/welcome"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+   <RelativeLayout
+       android:id="@+id/logIn_btn"
+       android:layout_width="300sp"
+       android:layout_height="40dp"
+       android:backgroundTint="@color/layout"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+       android:background="@drawable/white_boarder">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerInParent="true"
+           android:gravity=""
+           android:text="@string/login"
+           android:textColor="@color/black"
+           android:textSize="25sp"
+           android:textStyle="bold" />
+
+
+   </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sign_btn"
+        android:layout_width="300sp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_boarder"
+        android:backgroundTint="@color/dark">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity=""
+            android:text="@string/sign_up"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

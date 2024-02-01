@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lavender"
+    tools:context=".Registration.LogIn">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/log"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/log_img"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="@string/welcome_back"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:layout_below="@id/log_img"
+        android:id="@+id/welcome_txt"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/small_log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_to_your_account"
+        android:textColor="@color/black"
+        android:layout_below="@id/welcome_txt"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/username_login"
+        android:layout_below="@id/small_log"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:hint="@string/username"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/password_log"
+        android:layout_below="@id/username_login"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/black"
+        android:hint="@string/password"
+        android:padding="8dp"
+        android:drawableLeft="@drawable/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/text"
+        android:layout_centerHorizontal="true"/>
+
+    <RelativeLayout
+        android:id="@+id/logIn_btn2"
+        android:layout_width="300sp"
+        android:layout_height="40dp"
+        android:backgroundTint="@color/layout"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/white_boarder"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/password_log">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity=""
+            android:text="@string/login"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/signup_redirect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/logIn_btn2"
+        android:layout_marginTop="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:id="@+id/tttt"
+            android:textColor="@color/black"
+            android:text="@string/don_t_have_an_account"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:id="@+id/sig"
+            android:textColor="@color/black"
+            android:layout_marginStart="8dp"
+            android:layout_toEndOf="@id/tttt"/>
+
+        <LinearLayout
+            android:layout_width="55dp"
+            android:layout_height="2dp"
+            android:background="#CA0D0D"
+            android:layout_toEndOf="@id/tttt"
+            android:layout_below="@id/sig"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

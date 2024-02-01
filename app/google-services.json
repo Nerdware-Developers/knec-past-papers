@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "986162531234",
+    "firebase_url": "https://knec-past-papers-default-rtdb.firebaseio.com",
+    "project_id": "knec-past-papers",
+    "storage_bucket": "knec-past-papers.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986162531234:android:ebc1469eb8bd84b55d40fb",
+        "android_client_info": {
+          "package_name": "com.nerdware.knec"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfz5evKRw7BZeAfA_PMpIRgLLn844QzV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986162531234:android:0962909c872590465d40fb",
+        "android_client_info": {
+          "package_name": "com.nerdware.knecpastpapers"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfz5evKRw7BZeAfA_PMpIRgLLn844QzV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:986162531234:android:eede8b9bbed9443d5d40fb",
+        "android_client_info": {
+          "package_name": "com.nerdware.login"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBfz5evKRw7BZeAfA_PMpIRgLLn844QzV8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
